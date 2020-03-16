@@ -83,3 +83,11 @@ subtraction(10, 4);
 // 10. Create a function that accepts one argument.
 // 10. Inside the function, add the argument to the array.
 // 10. Call the function and pass in a value of any type.
+var fruitArray = [];
+
+function addFruits(fruit) {
+  fruitArray.push(fruit);
+  console.log(fruitArray);
+}
+
+addFruits("Banana");
