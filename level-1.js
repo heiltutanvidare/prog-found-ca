@@ -65,6 +65,12 @@ for (var i = 0; i < cars.length; i++) {
 // 8. Create a function called whatIDontLike that accepts one argument. Choose a good name for the argument.
 // 8. Inside the function, log the string "I don't like " together with the argument.
 // 8. Call the function and pass in a value of your choice.
+function whatIDontLike(disliked) {
+  console.log("I don't like " + disliked);
+}
+
+whatIDontLike("Sushi");
+
 // 9. Create a function that accepts two arguments.
 // 9. Inside the function, subtract the second argument from the first and console log the result.
 // 10. Create an empty array.
