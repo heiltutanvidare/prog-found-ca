@@ -22,7 +22,13 @@ if (outOfStock === true) {
 }
 
 // 4. Create an array of five numbers. Loop through the array and console log each value.
+var numberArray = [1, 13, 256, 55, 394];
+
+for (var i = 0; i < numberArray.length; i++) {
+  console.log(numberArray[i]);
+}
 // 5. Create a for loop that counts from 15 to 25. Console log the value of the counter variable inside the loop.
+
 // 6. Using the same loop from the above question, only log the value of the counter variable if it is equal to 20.
 // 7. Create an array of two objects. Each object must have the same three properties (with different values):
 // 7. one property with a string value
