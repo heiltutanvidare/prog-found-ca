@@ -1,10 +1,26 @@
-// Course assignment | Programming Foundations
+// Course assignment | Programming Foundations | Vidar Håland
 // LEVEL 1
+
 // 1. Declare and initialise a variable with a string value.
+var myName = "Vidar";
+
 // 2. Create an object variable called person and give it two properties (a key and a value) of your choice.
+var person = {
+  gender: "male",
+  age: 32
+};
+
 // 3. Create a variable called outOfStock and assign it a boolean value.
+var outOfStock = true;
+
 // 3. Create an if else statement that checks the value of outOfStock.
 // 3. If it is true, console log "Out of stock". Otherwise log "In stock".
+if (outOfStock === true) {
+  console.log("Out of stock");
+} else {
+  console.log("In stock");
+}
+
 // 4. Create an array of five numbers. Loop through the array and console log each value.
 // 5. Create a for loop that counts from 15 to 25. Console log the value of the counter variable inside the loop.
 // 6. Using the same loop from the above question, only log the value of the counter variable if it is equal to 20.
