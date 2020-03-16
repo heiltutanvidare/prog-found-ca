@@ -11,10 +11,10 @@ var person = {
 };
 
 // 3. Create a variable called outOfStock and assign it a boolean value.
-var outOfStock = true;
-
 // 3. Create an if else statement that checks the value of outOfStock.
 // 3. If it is true, console log "Out of stock". Otherwise log "In stock".
+var outOfStock = true;
+
 if (outOfStock === true) {
   console.log("Out of stock");
 } else {
@@ -73,6 +73,12 @@ whatIDontLike("Sushi");
 
 // 9. Create a function that accepts two arguments.
 // 9. Inside the function, subtract the second argument from the first and console log the result.
+function subtraction(numberOne, numberTwo) {
+  console.log(numberOne - numberTwo);
+}
+
+subtraction(10, 4);
+
 // 10. Create an empty array.
 // 10. Create a function that accepts one argument.
 // 10. Inside the function, add the argument to the array.
